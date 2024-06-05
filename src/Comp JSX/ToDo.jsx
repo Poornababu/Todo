@@ -95,6 +95,7 @@ const ToDo = () => {
      }
 
      console.log(Tasks)
+     console.log("Updated...")
 
      return (
           <>
