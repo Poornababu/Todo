@@ -1,0 +1,135 @@
+.container::-webkit-scrollbar {
+     width: 5px;
+     /* Width of the scrollbar  */
+}
+
+Track .container::-webkit-scrollbar-track {
+     background: #f5dbed;
+     /* Color of the track */
+}
+
+/* Handle */
+.container::-webkit-scrollbar-thumb {
+     background: #eb54eb;
+     border-radius: 0.5rem;
+     /* Color of the handle */
+}
+
+/* Handle on hover */
+.container::-webkit-scrollbar-thumb:hover {
+     background: #eb19a5;
+     /* Color of the handle on hover */
+}
+
+/* Corner */
+.container::-webkit-scrollbar-corner {
+     background: transparent;
+     /* Color of the corner */
+}
+
+
+
+
+.container {
+     width: 80%;
+     height: 70vh;
+     box-shadow: -5px 8px 16px 2px rgba(0, 0, 0, 0.20);
+     overflow-y: auto;
+     background-color: azure;
+     border-radius: 1rem;
+     position: relative;
+     top: 5rem;
+}
+
+.child {
+     width: 90%;
+     display: flex;
+     height: max-content;
+     justify-content: flex-start;
+     flex-direction: column;
+     margin: auto;
+}
+
+h1 {
+     font-size: 1.7rem;
+     font-weight: 800;
+     width: 100%;
+     margin-top: 2rem;
+     height: max-content;
+}
+
+.input-text {
+     width: 50%;
+     border-radius: 0.5rem;
+     padding: 1rem;
+     background-color: rgb(240, 222, 237);
+     outline: none;
+     border: 0.2rem solid transparent;
+     transition: border 0.4s ease-in-out;
+}
+
+.input-text:focus {
+     border: 0.2rem solid purple;
+}
+
+.input-field {
+     margin-top: 2rem;
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     justify-content: space-between;
+     height: max-content;
+}
+
+.input-field button,
+.only-button button {
+     width: 30%;
+     padding: 1rem;
+     outline: none;
+     border-radius: 0.5rem;
+     border: 2px solid transparent;
+     cursor: pointer;
+     font-size: 1.4rem;
+     background-color: rgb(238, 233, 212);
+     transition: border 0.4s ease-in-out;
+     font-weight: 700;
+}
+
+
+h3,
+h4 {
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     font-size: 1.2rem;
+     margin-top: 10rem;
+     font-weight: 400;
+}
+
+h4 {
+     justify-content: flex-start;
+}
+
+.task-list>button {
+     padding: 0.5rem 0.8rem;
+     border-radius: 0.5rem;
+     text-align: center;
+     margin-top: 2rem;
+     color: black;
+     background-color: rgb(236, 201, 230);
+     outline: none;
+     border: 2px solid transparent;
+     font-size: 1rem;
+     font-weight: 500;
+     transition: border 0.4s ease-in-out;
+     cursor: pointer;
+}
+
+button:hover {
+     border: 2px solid purple;
+}
+
+.task-list>button.finishedtask {
+     background-color:purple;  
+     color:#fff;
+}

@@ -1,0 +1,43 @@
+.list {
+     display: flex;
+     margin-top: 2rem;
+     flex-wrap: wrap;
+     align-items: center;
+     width: 100%;
+     height: fit-content;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.only-task {
+     display: flex;
+     width: 70%;
+     align-items: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 1rem;
+}
+
+.list p {
+     font-size: 1.6rem;
+     width: 80%;
+}
+
+
+.only-button {
+     width: max-content;
+     display: flex;
+     gap: 1rem;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.only-button button {
+     width: 2.8rem;
+     padding: 0.5rem;
+     height: 2.8rem;
+}
+
+.strike {
+     text-decoration: line-through;
+}
