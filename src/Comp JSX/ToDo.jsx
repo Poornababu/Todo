@@ -94,8 +94,7 @@ const ToDo = () => {
           setShowFinished(!ShowFinished)
      }
 
-     console.log(Tasks)
-     console.log("Updated...")
+  
 
      return (
           <>
